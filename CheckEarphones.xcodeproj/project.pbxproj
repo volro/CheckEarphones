@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C00E0BDD172535A10072DB9C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C00E0BDC172535A10072DB9C /* UIKit.framework */; };
+		C00E0BDF172535A10072DB9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C00E0BDE172535A10072DB9C /* Foundation.framework */; };
+		C00E0BE1172535A10072DB9C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C00E0BE0172535A10072DB9C /* CoreGraphics.framework */; };
+		C00E0BE7172535A10072DB9C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C00E0BE5172535A10072DB9C /* InfoPlist.strings */; };
+		C00E0BE9172535A10072DB9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C00E0BE8172535A10072DB9C /* main.m */; };
+		C00E0BED172535A10072DB9C /* CEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C00E0BEC172535A10072DB9C /* CEAppDelegate.m */; };
+		C00E0BF6172535A10072DB9C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C00E0BF4172535A10072DB9C /* MainStoryboard.storyboard */; };
+		C00E0BF9172535A10072DB9C /* CEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C00E0BF8172535A10072DB9C /* CEViewController.m */; };
+		C00E0C0017253B380072DB9C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C00E0BFF17253B380072DB9C /* AVFoundation.framework */; };
+		C00E0C02172545610072DB9C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C00E0C01172545610072DB9C /* AudioToolbox.framework */; };
+		C00E0C04172579210072DB9C /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C00E0C03172579210072DB9C /* MediaPlayer.framework */; };
+		C0379BB7174248A300AF451F /* maxTrack.png in Resources */ = {isa = PBXBuildFile; fileRef = C0379BB5174248A300AF451F /* maxTrack.png */; };
+		C0379BB8174248A300AF451F /* maxTrack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0379BB6174248A300AF451F /* maxTrack@2x.png */; };
+		C0379BCF17424FD000AF451F /* minTrack.png in Resources */ = {isa = PBXBuildFile; fileRef = C0379BCD17424FD000AF451F /* minTrack.png */; };
+		C0379BD017424FD000AF451F /* minTrack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0379BCE17424FD000AF451F /* minTrack@2x.png */; };
+		C0379BD31742510D00AF451F /* thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = C0379BD11742510D00AF451F /* thumb.png */; };
+		C0379BD41742510D00AF451F /* thumb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0379BD21742510D00AF451F /* thumb@2x.png */; };
+		C0379BD7174277BB00AF451F /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = C0379BD5174277BB00AF451F /* bg.png */; };
+		C0379BD8174277BB00AF451F /* bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0379BD6174277BB00AF451F /* bg@2x.png */; };
+		C0379BDD17427FC700AF451F /* buttonNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = C0379BD917427FC700AF451F /* buttonNormal.png */; };
+		C0379BDE17427FC700AF451F /* buttonNormal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0379BDA17427FC700AF451F /* buttonNormal@2x.png */; };
+		C0379BDF17427FC700AF451F /* buttonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = C0379BDB17427FC700AF451F /* buttonPressed.png */; };
+		C0379BE017427FC700AF451F /* buttonPressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0379BDC17427FC700AF451F /* buttonPressed@2x.png */; };
+		C0379BE21742892300AF451F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0379BE11742892300AF451F /* Default-568h@2x.png */; };
+		C0379BE41742920E00AF451F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C0379BE31742920E00AF451F /* Default.png */; };
+		C0379BE61742921100AF451F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0379BE51742921100AF451F /* Default@2x.png */; };
+		C0ACD37B1730FF53005F38EF /* UIDeviceHardware.m in Sources */ = {isa = PBXBuildFile; fileRef = C0ACD37A1730FF53005F38EF /* UIDeviceHardware.m */; };
+		C0B3D2B4173B887F00205C3E /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0B3D2B3173B887F00205C3E /* Crashlytics.framework */; };
+		C0B3D2B6173BDBC500205C3E /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0B3D2B5173BDBC500205C3E /* icon@2x.png */; };
+		C0B3D2B8173BDBCB00205C3E /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C0B3D2B7173BDBCB00205C3E /* icon.png */; };
+		C0B5AD8D172EAAF600278D04 /* CEHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B5AD8C172EAAF600278D04 /* CEHelpViewController.m */; };
+		C0C38C6A17390C16008FD20E /* headphones.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0C38C6917390C16008FD20E /* headphones.jpg */; };
+		C0C38C6F17390C21008FD20E /* iPod.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0C38C6B17390C21008FD20E /* iPod.jpg */; };
+		C0C38C7017390C21008FD20E /* iPhone5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0C38C6C17390C21008FD20E /* iPhone5.jpg */; };
+		C0C38C7117390C21008FD20E /* iPadMini.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0C38C6D17390C21008FD20E /* iPadMini.jpg */; };
+		C0C38C7217390C21008FD20E /* iPadRetina.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0C38C6E17390C21008FD20E /* iPadRetina.jpg */; };
+		C0C38C7617390C2F008FD20E /* iPhone3.png in Resources */ = {isa = PBXBuildFile; fileRef = C0C38C7317390C2F008FD20E /* iPhone3.png */; };
+		C0C38C7717390C2F008FD20E /* iPhone4.png in Resources */ = {isa = PBXBuildFile; fileRef = C0C38C7417390C2F008FD20E /* iPhone4.png */; };
+		C0C38C7817390C2F008FD20E /* iPodOld.png in Resources */ = {isa = PBXBuildFile; fileRef = C0C38C7517390C2F008FD20E /* iPodOld.png */; };
+		D02507F0107B4ECCADB21B10 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320652997BDC4B33B4BE6595 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		320652997BDC4B33B4BE6595 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C00E0BD9172535A10072DB9C /* Volume Check.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Volume Check.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C00E0BDC172535A10072DB9C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C00E0BDE172535A10072DB9C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C00E0BE0172535A10072DB9C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C00E0BE4172535A10072DB9C /* CheckEarphones-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CheckEarphones-Info.plist"; sourceTree = "<group>"; };
+		C00E0BE6172535A10072DB9C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C00E0BE8172535A10072DB9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C00E0BEA172535A10072DB9C /* CheckEarphones-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CheckEarphones-Prefix.pch"; sourceTree = "<group>"; };
+		C00E0BEB172535A10072DB9C /* CEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CEAppDelegate.h; sourceTree = "<group>"; };
+		C00E0BEC172535A10072DB9C /* CEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CEAppDelegate.m; sourceTree = "<group>"; };
+		C00E0BF5172535A10072DB9C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C00E0BF7172535A10072DB9C /* CEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CEViewController.h; sourceTree = "<group>"; };
+		C00E0BF8172535A10072DB9C /* CEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CEViewController.m; sourceTree = "<group>"; };
+		C00E0BFF17253B380072DB9C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C00E0C01172545610072DB9C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C00E0C03172579210072DB9C /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		C0379BB5174248A300AF451F /* maxTrack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maxTrack.png; sourceTree = "<group>"; };
+		C0379BB6174248A300AF451F /* maxTrack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "maxTrack@2x.png"; sourceTree = "<group>"; };
+		C0379BCD17424FD000AF451F /* minTrack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minTrack.png; sourceTree = "<group>"; };
+		C0379BCE17424FD000AF451F /* minTrack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "minTrack@2x.png"; sourceTree = "<group>"; };
+		C0379BD11742510D00AF451F /* thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumb.png; sourceTree = "<group>"; };
+		C0379BD21742510D00AF451F /* thumb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumb@2x.png"; sourceTree = "<group>"; };
+		C0379BD5174277BB00AF451F /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		C0379BD6174277BB00AF451F /* bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg@2x.png"; sourceTree = "<group>"; };
+		C0379BD917427FC700AF451F /* buttonNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonNormal.png; sourceTree = "<group>"; };
+		C0379BDA17427FC700AF451F /* buttonNormal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonNormal@2x.png"; sourceTree = "<group>"; };
+		C0379BDB17427FC700AF451F /* buttonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonPressed.png; sourceTree = "<group>"; };
+		C0379BDC17427FC700AF451F /* buttonPressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonPressed@2x.png"; sourceTree = "<group>"; };
+		C0379BE11742892300AF451F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C0379BE31742920E00AF451F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C0379BE51742921100AF451F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C0ACD3791730FF53005F38EF /* UIDeviceHardware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIDeviceHardware.h; sourceTree = "<group>"; };
+		C0ACD37A1730FF53005F38EF /* UIDeviceHardware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIDeviceHardware.m; sourceTree = "<group>"; };
+		C0B3D2B3173B887F00205C3E /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		C0B3D2B5173BDBC500205C3E /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		C0B3D2B7173BDBCB00205C3E /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		C0B5AD8B172EAAF600278D04 /* CEHelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CEHelpViewController.h; path = ../CEHelpViewController.h; sourceTree = "<group>"; };
+		C0B5AD8C172EAAF600278D04 /* CEHelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CEHelpViewController.m; path = ../CEHelpViewController.m; sourceTree = "<group>"; };
+		C0C38C6917390C16008FD20E /* headphones.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = headphones.jpg; sourceTree = "<group>"; };
+		C0C38C6B17390C21008FD20E /* iPod.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iPod.jpg; sourceTree = "<group>"; };
+		C0C38C6C17390C21008FD20E /* iPhone5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iPhone5.jpg; sourceTree = "<group>"; };
+		C0C38C6D17390C21008FD20E /* iPadMini.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iPadMini.jpg; sourceTree = "<group>"; };
+		C0C38C6E17390C21008FD20E /* iPadRetina.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iPadRetina.jpg; sourceTree = "<group>"; };
+		C0C38C7317390C2F008FD20E /* iPhone3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone3.png; sourceTree = "<group>"; };
+		C0C38C7417390C2F008FD20E /* iPhone4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone4.png; sourceTree = "<group>"; };
+		C0C38C7517390C2F008FD20E /* iPodOld.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPodOld.png; sourceTree = "<group>"; };
+		C69450DD06434458AF613DBD /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C00E0BD6172535A10072DB9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C00E0C04172579210072DB9C /* MediaPlayer.framework in Frameworks */,
+				C00E0C02172545610072DB9C /* AudioToolbox.framework in Frameworks */,
+				C00E0C0017253B380072DB9C /* AVFoundation.framework in Frameworks */,
+				C00E0BDD172535A10072DB9C /* UIKit.framework in Frameworks */,
+				C00E0BDF172535A10072DB9C /* Foundation.framework in Frameworks */,
+				C00E0BE1172535A10072DB9C /* CoreGraphics.framework in Frameworks */,
+				D02507F0107B4ECCADB21B10 /* libPods.a in Frameworks */,
+				C0B3D2B4173B887F00205C3E /* Crashlytics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C00E0BD0172535A00072DB9C = {
+			isa = PBXGroup;
+			children = (
+				C0379BE51742921100AF451F /* Default@2x.png */,
+				C0379BE31742920E00AF451F /* Default.png */,
+				C0379BE11742892300AF451F /* Default-568h@2x.png */,
+				C0B3D2B7173BDBCB00205C3E /* icon.png */,
+				C0B3D2B5173BDBC500205C3E /* icon@2x.png */,
+				C00E0BE2172535A10072DB9C /* CheckEarphones */,
+				C00E0BDB172535A10072DB9C /* Frameworks */,
+				C00E0BDA172535A10072DB9C /* Products */,
+				C69450DD06434458AF613DBD /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		C00E0BDA172535A10072DB9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C00E0BD9172535A10072DB9C /* Volume Check.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C00E0BDB172535A10072DB9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0B3D2B3173B887F00205C3E /* Crashlytics.framework */,
+				C00E0C03172579210072DB9C /* MediaPlayer.framework */,
+				C00E0C01172545610072DB9C /* AudioToolbox.framework */,
+				C00E0BFF17253B380072DB9C /* AVFoundation.framework */,
+				C00E0BDC172535A10072DB9C /* UIKit.framework */,
+				C00E0BDE172535A10072DB9C /* Foundation.framework */,
+				C00E0BE0172535A10072DB9C /* CoreGraphics.framework */,
+				320652997BDC4B33B4BE6595 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C00E0BE2172535A10072DB9C /* CheckEarphones */ = {
+			isa = PBXGroup;
+			children = (
+				C0C38C681738DD98008FD20E /* images */,
+				C0ACD3791730FF53005F38EF /* UIDeviceHardware.h */,
+				C0ACD37A1730FF53005F38EF /* UIDeviceHardware.m */,
+				C00E0BEB172535A10072DB9C /* CEAppDelegate.h */,
+				C00E0BEC172535A10072DB9C /* CEAppDelegate.m */,
+				C00E0BF4172535A10072DB9C /* MainStoryboard.storyboard */,
+				C00E0BF7172535A10072DB9C /* CEViewController.h */,
+				C00E0BF8172535A10072DB9C /* CEViewController.m */,
+				C0B5AD8B172EAAF600278D04 /* CEHelpViewController.h */,
+				C0B5AD8C172EAAF600278D04 /* CEHelpViewController.m */,
+				C00E0BE3172535A10072DB9C /* Supporting Files */,
+			);
+			path = CheckEarphones;
+			sourceTree = "<group>";
+		};
+		C00E0BE3172535A10072DB9C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C00E0BE4172535A10072DB9C /* CheckEarphones-Info.plist */,
+				C00E0BE5172535A10072DB9C /* InfoPlist.strings */,
+				C00E0BE8172535A10072DB9C /* main.m */,
+				C00E0BEA172535A10072DB9C /* CheckEarphones-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0379BB01742486B00AF451F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C0379BD917427FC700AF451F /* buttonNormal.png */,
+				C0379BDA17427FC700AF451F /* buttonNormal@2x.png */,
+				C0379BDB17427FC700AF451F /* buttonPressed.png */,
+				C0379BDC17427FC700AF451F /* buttonPressed@2x.png */,
+				C0379BD5174277BB00AF451F /* bg.png */,
+				C0379BD6174277BB00AF451F /* bg@2x.png */,
+				C0379BD11742510D00AF451F /* thumb.png */,
+				C0379BD21742510D00AF451F /* thumb@2x.png */,
+				C0379BCD17424FD000AF451F /* minTrack.png */,
+				C0379BCE17424FD000AF451F /* minTrack@2x.png */,
+				C0379BB5174248A300AF451F /* maxTrack.png */,
+				C0379BB6174248A300AF451F /* maxTrack@2x.png */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		C0C38C681738DD98008FD20E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				C0379BB01742486B00AF451F /* UI */,
+				C0C38C7317390C2F008FD20E /* iPhone3.png */,
+				C0C38C7417390C2F008FD20E /* iPhone4.png */,
+				C0C38C7517390C2F008FD20E /* iPodOld.png */,
+				C0C38C6B17390C21008FD20E /* iPod.jpg */,
+				C0C38C6C17390C21008FD20E /* iPhone5.jpg */,
+				C0C38C6D17390C21008FD20E /* iPadMini.jpg */,
+				C0C38C6E17390C21008FD20E /* iPadRetina.jpg */,
+				C0C38C6917390C16008FD20E /* headphones.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C00E0BD8172535A10072DB9C /* CheckEarphones */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C00E0BFC172535A10072DB9C /* Build configuration list for PBXNativeTarget "CheckEarphones" */;
+			buildPhases = (
+				C24AD39DE84543CEA6BC157B /* Check Pods Manifest.lock */,
+				C00E0BD5172535A10072DB9C /* Sources */,
+				C00E0BD6172535A10072DB9C /* Frameworks */,
+				C00E0BD7172535A10072DB9C /* Resources */,
+				C006DF11F5F443CA946161B5 /* Copy Pods Resources */,
+				C0B3D2B2173B884D00205C3E /* Run Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CheckEarphones;
+			productName = CheckEarphones;
+			productReference = C00E0BD9172535A10072DB9C /* Volume Check.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C00E0BD1172535A00072DB9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CE;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = WiseEngineering;
+			};
+			buildConfigurationList = C00E0BD4172535A00072DB9C /* Build configuration list for PBXProject "CheckEarphones" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C00E0BD0172535A00072DB9C;
+			productRefGroup = C00E0BDA172535A10072DB9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C00E0BD8172535A10072DB9C /* CheckEarphones */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C00E0BD7172535A10072DB9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C00E0BE7172535A10072DB9C /* InfoPlist.strings in Resources */,
+				C00E0BF6172535A10072DB9C /* MainStoryboard.storyboard in Resources */,
+				C0C38C6A17390C16008FD20E /* headphones.jpg in Resources */,
+				C0C38C6F17390C21008FD20E /* iPod.jpg in Resources */,
+				C0C38C7017390C21008FD20E /* iPhone5.jpg in Resources */,
+				C0C38C7117390C21008FD20E /* iPadMini.jpg in Resources */,
+				C0C38C7217390C21008FD20E /* iPadRetina.jpg in Resources */,
+				C0C38C7617390C2F008FD20E /* iPhone3.png in Resources */,
+				C0C38C7717390C2F008FD20E /* iPhone4.png in Resources */,
+				C0C38C7817390C2F008FD20E /* iPodOld.png in Resources */,
+				C0B3D2B6173BDBC500205C3E /* icon@2x.png in Resources */,
+				C0B3D2B8173BDBCB00205C3E /* icon.png in Resources */,
+				C0379BB7174248A300AF451F /* maxTrack.png in Resources */,
+				C0379BB8174248A300AF451F /* maxTrack@2x.png in Resources */,
+				C0379BCF17424FD000AF451F /* minTrack.png in Resources */,
+				C0379BD017424FD000AF451F /* minTrack@2x.png in Resources */,
+				C0379BD31742510D00AF451F /* thumb.png in Resources */,
+				C0379BD41742510D00AF451F /* thumb@2x.png in Resources */,
+				C0379BD7174277BB00AF451F /* bg.png in Resources */,
+				C0379BD8174277BB00AF451F /* bg@2x.png in Resources */,
+				C0379BDD17427FC700AF451F /* buttonNormal.png in Resources */,
+				C0379BDE17427FC700AF451F /* buttonNormal@2x.png in Resources */,
+				C0379BDF17427FC700AF451F /* buttonPressed.png in Resources */,
+				C0379BE017427FC700AF451F /* buttonPressed@2x.png in Resources */,
+				C0379BE21742892300AF451F /* Default-568h@2x.png in Resources */,
+				C0379BE41742920E00AF451F /* Default.png in Resources */,
+				C0379BE61742921100AF451F /* Default@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C006DF11F5F443CA946161B5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+		C0B3D2B2173B884D00205C3E /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Crashlytics.framework/run c22e132a472a9c67d2554321ebd2ee86ade4c887";
+		};
+		C24AD39DE84543CEA6BC157B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sanbox is not in sync with the Podfile.lock. Run 'pod install'.\nEOM\n    exit 1\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C00E0BD5172535A10072DB9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C00E0BE9172535A10072DB9C /* main.m in Sources */,
+				C00E0BED172535A10072DB9C /* CEAppDelegate.m in Sources */,
+				C00E0BF9172535A10072DB9C /* CEViewController.m in Sources */,
+				C0B5AD8D172EAAF600278D04 /* CEHelpViewController.m in Sources */,
+				C0ACD37B1730FF53005F38EF /* UIDeviceHardware.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C00E0BE5172535A10072DB9C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C00E0BE6172535A10072DB9C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C00E0BF4172535A10072DB9C /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C00E0BF5172535A10072DB9C /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C00E0BFA172535A10072DB9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C00E0BFB172535A10072DB9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C00E0BFD172535A10072DB9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C69450DD06434458AF613DBD /* Pods.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CheckEarphones/CheckEarphones-Prefix.pch";
+				INFOPLIST_FILE = "CheckEarphones/CheckEarphones-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "Volume Check";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C00E0BFE172535A10072DB9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C69450DD06434458AF613DBD /* Pods.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CheckEarphones/CheckEarphones-Prefix.pch";
+				INFOPLIST_FILE = "CheckEarphones/CheckEarphones-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "Volume Check";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C00E0BD4172535A00072DB9C /* Build configuration list for PBXProject "CheckEarphones" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C00E0BFA172535A10072DB9C /* Debug */,
+				C00E0BFB172535A10072DB9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C00E0BFC172535A10072DB9C /* Build configuration list for PBXNativeTarget "CheckEarphones" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C00E0BFD172535A10072DB9C /* Debug */,
+				C00E0BFE172535A10072DB9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C00E0BD1172535A00072DB9C /* Project object */;
+}

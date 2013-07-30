@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>76215878-B5EB-43B5-A951-46CD9393E4A2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CheckEarphones</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FBB23D9D-7BA3-442E-80F9-F18338806714</key>
+		<string>https://github.com/volro/CheckEarphones.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CheckEarphones.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FBB23D9D-7BA3-442E-80F9-F18338806714</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/volro/CheckEarphones.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FBB23D9D-7BA3-442E-80F9-F18338806714</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FBB23D9D-7BA3-442E-80F9-F18338806714</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CheckEarphonesGithub2</string>
+		</dict>
+	</array>
+</dict>
+</plist>
